@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: storage-manager-binding
+  namespace: secure-storage
+subjects:
+- kind: ServiceAccount
+  name: default
+  namespace: secure-storage
+roleRef:
+  kind: Role
+  name: storage-manager-role
+  apiGroup: rbac.authorization.k8s.io
