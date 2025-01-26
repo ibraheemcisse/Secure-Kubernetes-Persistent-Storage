@@ -1,6 +1,4 @@
-# Secure-Kubernetes-Persistent-Storage-with-RBAC-and-Pod-Security-Standards-PSA-
-
-# **Secure Kubernetes Persistent Storage with RBAC and Pod Security Standards (PSA)**
+# Secure Kubernetes Persistent Storage with RBAC and Pod Security Standards PSA
 
 This project demonstrates how to deploy a secure stateful application (e.g., MySQL) in Kubernetes using Persistent Volumes (PVs) and Persistent Volume Claims (PVCs), while adhering to Kubernetes security best practices. The focus is on securing access to persistent storage and enforcing Pod security with Role-Based Access Control (RBAC) and **Pod Security Admission (PSA)**.
 
