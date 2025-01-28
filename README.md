@@ -212,13 +212,13 @@ spec:
 
 
 ```
-Outcomes
+**Outcomes**
 
 Secure Storage: Persistent Volumes and Claims are securely managed using RBAC and Secrets.
 Enforced Policies: Pod Security Admission (PSA) ensures Pods comply with security standards.
 Hands-On Learning: This project strengthens your understanding of combining Kubernetes security and storage management.
 
-Contributions
+**Contributions**
 
 If you want to contribute to this project, feel free to fork it and submit a pull request. If you encounter any issues or have suggestions, please open an issue on GitHub.
 
